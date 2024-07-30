@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.6">
   <diagram name="Page-1" id="iYOVQTg5ozlv4x58kKD0">
-    <mxGraphModel dx="2285" dy="3940" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2285" dy="4340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -33,6 +33,44 @@
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-16" value="Theatre&lt;div&gt;Add/Modify/Delete&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-610" y="-3200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-18" value="Search by title" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="-3290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-19" value="Search by genre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-3300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-20" value="Search by release date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-3300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-21" target="PGpmKNZ1F50kphzpaIY3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-30" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PGpmKNZ1F50kphzpaIY3-29">
+          <mxGeometry x="-0.0607" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-21" value="Search by language" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-370" y="-3200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-22" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-300" y="-3090" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-23" value="Search by city" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="-3300" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-24" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="-3160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-25" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-120" y="-2900" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-26" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="-2750" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-27" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="-2860" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
