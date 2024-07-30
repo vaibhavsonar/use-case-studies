@@ -37,7 +37,7 @@
         <mxCell id="PGpmKNZ1F50kphzpaIY3-16" value="Theatre&lt;div&gt;Add/Modify/Delete&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-610" y="-3200" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PGpmKNZ1F50kphzpaIY3-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-18" target="PGpmKNZ1F50kphzpaIY3-14">
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-18" target="PGpmKNZ1F50kphzpaIY3-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-32" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PGpmKNZ1F50kphzpaIY3-31">
@@ -46,9 +46,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-18" value="Search by title" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-350" y="-3320" width="120" height="80" as="geometry" />
+          <mxGeometry x="-370" y="-3220" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PGpmKNZ1F50kphzpaIY3-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-19" target="PGpmKNZ1F50kphzpaIY3-14">
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-33" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-19" target="PGpmKNZ1F50kphzpaIY3-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-34" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PGpmKNZ1F50kphzpaIY3-33">
@@ -57,9 +57,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-19" value="Search by genre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-180" y="-3320" width="120" height="80" as="geometry" />
+          <mxGeometry x="-370" y="-3340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PGpmKNZ1F50kphzpaIY3-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-20" target="PGpmKNZ1F50kphzpaIY3-14">
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-35" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-20" target="PGpmKNZ1F50kphzpaIY3-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-38" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PGpmKNZ1F50kphzpaIY3-35">
@@ -68,7 +68,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-20" value="Search by release date" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-30" y="-3330" width="120" height="80" as="geometry" />
+          <mxGeometry x="-200" y="-3380" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-21" target="PGpmKNZ1F50kphzpaIY3-14">
           <mxGeometry relative="1" as="geometry" />
@@ -79,7 +79,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-21" value="Search by language" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-370" y="-3190" width="120" height="80" as="geometry" />
+          <mxGeometry x="-370" y="-3100" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-22" value="Sign up/&lt;div&gt;Login/&lt;/div&gt;&lt;div&gt;Logout/&lt;/div&gt;&lt;div&gt;Password Reset&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="-3040" width="120" height="80" as="geometry" />
@@ -93,7 +93,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-23" value="Search by city" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="120" y="-3320" width="120" height="80" as="geometry" />
+          <mxGeometry x="-50" y="-3370" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-24" value="Seat selection" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-380" y="-2920" width="120" height="80" as="geometry" />
@@ -168,6 +168,20 @@
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-56" value="New movie release" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-620" y="-2710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-62" value="Cancel booking" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="-2710" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-65" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-63" target="PGpmKNZ1F50kphzpaIY3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-66" value="&amp;lt;&amp;lt;extend&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PGpmKNZ1F50kphzpaIY3-65">
+          <mxGeometry x="-0.026" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-63" value="Search by theatre" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-3320" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
