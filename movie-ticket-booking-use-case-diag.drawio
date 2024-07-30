@@ -95,11 +95,19 @@
         <mxCell id="PGpmKNZ1F50kphzpaIY3-23" value="Search by city" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="-3320" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PGpmKNZ1F50kphzpaIY3-24" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="30" y="-2750" width="120" height="80" as="geometry" />
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-24" value="Seat selection" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="-2920" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PGpmKNZ1F50kphzpaIY3-25" target="PGpmKNZ1F50kphzpaIY3-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PGpmKNZ1F50kphzpaIY3-49" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PGpmKNZ1F50kphzpaIY3-48">
+          <mxGeometry x="0.025" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-25" value="Book movie" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-160" y="-2900" width="120" height="80" as="geometry" />
+          <mxGeometry x="-160" y="-2920" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="PGpmKNZ1F50kphzpaIY3-26" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-440" y="-2750" width="120" height="80" as="geometry" />
