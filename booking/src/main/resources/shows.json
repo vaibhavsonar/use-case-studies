@@ -1,0 +1,29 @@
+[
+  {
+    "showId": 1234,
+    "startDateTime": 1723716000000,
+    "isRunning": true,
+    "released": true,
+    "movie": {
+      "$oid": "66aa6896f7f4fa45136e158b"
+    }
+  },
+  {
+    "showId": 1235,
+    "startDateTime": 1723802400000,
+    "isRunning": false,
+    "released": true,
+    "movie": {
+      "$oid": "66aa6896f7f4fa45136e158b"
+    }
+  },
+  {
+    "showId": 1236,
+    "startDateTime": 1723888800000,
+    "isRunning": false,
+    "released": true,
+    "movie": {
+      "$oid": "66aa6896f7f4fa45136e158b"
+    }
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "username": "vaibhav.sonar",
+    "mobile": 9988776655,
+    "bookedShows": [
+      {
+        "$oid": "66aae59b541e2ef6efe00033"
+      },
+      {
+        "$oid": "66aae59b541e2ef6efe00035"
+      }
+    ]
+  },
+  {
+    "username": "mr.rich",
+    "mobile": 8877665544,
+    "bookedShows": [
+      {
+        "$oid": "66aae59b541e2ef6efe00034"
+      }
+    ]
+  }
+]

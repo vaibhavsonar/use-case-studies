@@ -1,0 +1,18 @@
+server:
+  port: 9000
+
+spring:
+  data:
+    mongodb:
+      database: movie-booking
+
+#logging:
+#  level:
+#    org:
+#      springframework:
+#        data:
+#          mongodb:
+#            core:
+#              MongoTemplate: TRACE
+#              convert:
+#                MongoDatabaseFactoryReferenceLoader: TRACE

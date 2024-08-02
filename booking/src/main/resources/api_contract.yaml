@@ -1,0 +1,130 @@
+openapi: 3.0.3
+info:
+  title: Movie booking
+  description: |-
+    Movie booking system allows below operations:
+    - Onboard theatre
+    - View, book movie show
+    - Cancel movie/show
+  version: 1.0-SNAPSHOT
+servers:
+  - url: https://testenvironment.org/api/v1
+  - url: https://prodenvironment.org/api/v1
+tags:
+  - name: movies
+    description: Movies
+  - name: theatres
+    description: Theatres
+  - name: shows
+    description: Shows
+paths:
+  /api/v1/theatres:
+    get:
+      tags:
+        - theatres
+      summary: Get all theatres information
+      description: Get all theatres information
+      operationId: getTheatres
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TheatreRequest'
+      responses:
+        200:
+          description: Success
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Theatre'
+        404:
+          description: Theatre not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TheatreNotFoundError'
+components:
+  schemas:
+    Theatre:
+      type: object
+      properties:
+        id:
+          type: string
+        name:
+          type: string
+        city:
+          type: string
+        showsByDates:
+          type: array
+          items:
+            $ref: '#/components/schemas/ShowByDate'
+    TheatreRequest:
+      type: object
+      properties:
+        name:
+          type: string
+        city:
+          type: string
+        getRunningShows:
+          type: boolean
+    TheatreNotFoundError:
+      type: object
+      properties:
+        message:
+          type: string
+    Show:
+      type: object
+      properties:
+        id:
+          type: string
+        startDateTime:
+          type: number
+        movie:
+          type: object
+          $ref: '#/components/schemas/Movie'
+        isRunning:
+          type: boolean
+        upcoming:
+          type: boolean
+    ShowByDate:
+      type: object
+      properties:
+        id:
+          type: string
+        date:
+          type: string
+        shows:
+          type: array
+          items:
+            $ref: '#/components/schemas/Show'
+    Movie:
+      type: object
+      properties:
+        id:
+          type: string
+        title:
+          type: string
+        year:
+          type: number
+        cast:
+          type: array
+          items:
+            type: string
+        genres:
+          type: array
+          items:
+            type: string
+        href:
+          type: string
+        extract:
+          type: string
+        thumbnail:
+          type: string
+        thumbnailWidth:
+          type: number
+        thumbnailHeight:
+          type: number
+
